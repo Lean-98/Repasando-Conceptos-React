@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background: black;
+    font-family: system-ui;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

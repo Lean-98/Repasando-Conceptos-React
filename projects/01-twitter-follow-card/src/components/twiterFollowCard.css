@@ -1,0 +1,88 @@
+.twFollow__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: .8rem;
+}
+
+.twFollow__header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.twFollow__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.twFollow__header, .twFollow__user {         
+    opacity: 0.9;
+}
+
+.twFollow__avatar {
+    width: 70px;
+    width: 70px;
+    border-radius: 1000px;
+}
+
+.twFollow__button {
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #000;
+    transition: .3s ease background-color;
+}
+
+.twFollow__button:hover {
+    opacity: .8;
+ } 
+
+ .twFollow__button--text {
+    display: block;
+}
+
+.twFollow__button.twFollow__button--Isfollowing { 
+    border: 1px solid #bbb;
+    background: transparent;
+    color: #fff;
+    width: 140px;
+}
+
+.twFollow__button.twFollow__button--Isfollowing:hover {
+    background-color: rgb(255, 0, 0, 0.178);
+    color: red;
+    border: 1px solid red;
+    transition: .3s ease all;
+    opacity: 1;
+}
+
+.twFollow__button.twFollow__button--Isfollowing:hover .twFollow__button--text {
+    display: none;
+}
+
+.twFollow__button.twFollow__button--Isfollowing:hover .twFollow__button--stopFollow {
+    display: block;
+}
+
+.twFollow__button--stopFollow {
+    display: none;
+}
+
+.twFollow__name {
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 5px;
+}
+
+.twFollow__user {
+    font-size: 15px;
+    color: white;
+}
+
+
+
